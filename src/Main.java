@@ -1,8 +1,8 @@
-import evaluacion6.ControlUsuarios;
+import sesion8.evaluacion.Comercio;
 
 public class Main {
     public static void main(String[] args) {
-        ControlUsuarios cu = new ControlUsuarios();
-        cu.registrarUsuarios();
+        Comercio comercio = new Comercio();
+        comercio.menu();
     }
 }
