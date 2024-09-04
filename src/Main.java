@@ -1,8 +1,8 @@
-import sesion8.evaluacion.Comercio;
+import sesion11.evaliacion.VideoClub;
 
 public class Main {
     public static void main(String[] args) {
-        Comercio comercio = new Comercio();
-        comercio.menu();
+        VideoClub vc = VideoClub.getInstance();
+        vc.iniciar();
     }
 }
